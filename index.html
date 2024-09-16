@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
@@ -103,16 +103,17 @@
           <h1>Research</h1>
         </td>
       </tr>
-    </tbody></table>
+    </table>
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tbody>
       <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
+        <td style="padding:20px;width:25%;vertical-align:top">
           <div class="one">
-            <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
+            <!-- <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
             <source src="images/smerf.mp4" type="video/mp4">
             Your browser does not support the video tag.
-            </video></div>
-            <img src='images/smerf.jpg' width=100%>
+            </video></div> -->
+            <img src='images/whole_body_mppi.png' width=100%>
           </div>
           <script type="text/javascript">
             function smerf_start() {
@@ -126,35 +127,116 @@
           </script>
         </td>
         <td style="padding:20px;width:75%;vertical-align:middle">
-          <a href="https://smerf-3d.github.io/">
-            <span class="papertitle">SMERF: Streamable Memory Efficient Radiance Fields for Real-Time Large-Scene Exploration</span>
+          <a href="https://whole-body-mppi.github.io/">
+            <span class="papertitle">Real-Time Whole-Body Control of Legged Robots with Model-Predictive Path Integral Control</span>
           </a>
           <br>
-      <a href="http://www.stronglyconvex.com/about.html">Daniel Duckworth*</a>,
-      <a href="https://phogzone.com/">Peter Hedman*</a>,
-      <a href="https://creiser.github.io/">Christian Reiser</a>,
-      <a href="">Peter Zhizhin</a>,
-      <a href="">Jean-François Thibert</a>,
-          <a href="https://lucic.ai/">Mario Lučić</a>,
-          <a href="https://szeliski.org/">Richard Szeliski</a>,
-      <strong>Jonathan T. Barron</strong>
+      <strong>Juan Alvarez-Padilla</strong>,
+      <a href="https://johnzhang3.github.io/">John Z. Zhang</a>,
+      <a href="https://sites.google.com/view/sofiakwok/">Sofia Kwok</a>,
+      <a href="https://www.ri.cmu.edu/ri-faculty/john-m-dolan/">John M. Dolan</a>,
+      and <a href="https://rexlab.ri.cmu.edu/">Zachary Manchester</a>
           <br>
           <em>arXiv</em>, 2023
-          <br>
-          <a href="https://smerf-3d.github.io/">project page</a>
-          /
-          <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc">video</a>
-          /
-          <a href="https://arxiv.org/abs/2312.07541">arXiv</a>
-          <p></p>
+          <div class="button-container">
+            <a href="https://smerf-3d.github.io/" class="btn btn-project">Project Page</a>
+            <a href="https://www.youtube.com/watch?v=zhO8iUBpnCc" class="btn btn-video">Video</a>
+            <a href="https://arxiv.org/abs/2312.07541" class="btn btn-arxiv">arXiv</a>
+          </div>
           <p>
-          Distilling a Zip-NeRF into a tiled set of MERFs lets you fly through radiance fields on laptops and smartphones at 60 FPS.
+            Presenting a system for enabling real-
+            time synthesis of whole-body locomotion and manipulation
+            policies for real-world legged robots by leveraging the efficient
+            parallelization capabilities of the MuJoCo simulator to achieve
+            fast sampling over the robot state and action trajectories.
           </p>
         </td>
       </tr>
-    
+    </tbody>
+    </table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr>
+      <td style="padding:20px;width:100%;vertical-align:middle">
+        <h1>Course projects</h1>
+      </td>
+    </tr>
+    </table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:top">
+          <div class="one">
+            <!-- <div class="two" id='smerf_image'><video  width=100% muted autoplay loop>
+            <source src="images/smerf.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video></div> -->
+            <img src="images/planner_sampling.gif" width="100%" alt="Pushing constrained animation">
+          </div>
+          <script type="text/javascript">
+            function smerf_start() {
+              document.getElementById('smerf_image').style.opacity = "1";
+            }
 
-      <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+            function smerf_stop() {
+              document.getElementById('smerf_image').style.opacity = "0";
+            }
+            smerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://github.com/jrapudg/optimal-sampling-low-thrust">
+            <span class="papertitle">On-Orbit Optimal Kinodynamic Planning for Low-Thrust Trjactory Maneuvers</span>
+          </a>
+          <br>
+      <a href="https://ibrassow.github.io/">Ibrahima Sory Sow</a>,
+      <strong>Juan Alvarez-Padilla</strong>,
+      <a href="https://www.linkedin.com/in/fausto-vega/">Fausto Vega</a>, and Nayana Survana
+          <br>
+          <em>16-782: Planning and Decision-making for Robotics</em>, Fall 2023, Professor <a href="https://www.cs.cmu.edu/~./maxim/"> Maxim Likhachev </a>
+          <div class="button-container">
+            <a href="https://github.com/jrapudg/optimal-sampling-low-thrust/blob/main/On-Orbit_Optimal_Kinodynamic_Planning_for_Low_Thrust_Trajectory_Maneuvers.pdf" class="btn btn-project">Report</a>
+            <a href="https://github.com/jrapudg/optimal-sampling-low-thrust" class="btn btn-arxiv">Code</a>
+          </div>
+          <p>
+            Using RRT* with an LQR-based heuristic to efficiently design low-thrust spacecraft trajectories, addressing nonlinear dynamics and long-duration maneuvers.
+          </p>
+        </td>
+      </tr>
+      <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
+        <td style="padding:20px;width:25%;vertical-align:middle">
+          <div class="one">
+            <img src="images/pushing_constrained.gif" width="100%" alt="Pushing constrained animation">
+          </div>
+          <script type="text/javascript">
+            function smerf_start() {
+              document.getElementById('smerf_image').style.opacity = "1";
+            }
+
+            function smerf_stop() {
+              document.getElementById('smerf_image').style.opacity = "0";
+            }
+            smerf_stop()
+          </script>
+        </td>
+        <td style="padding:20px;width:75%;vertical-align:middle">
+          <a href="https://github.com/jrapudg/ocrl_ballbot_navigation_project">
+            <span class="papertitle">Whole-body Trajectory Optimization and Tracking for Agile Maneuvers for a Single-Spherical-Wheeled Balancing Mobile Manipulator</span>
+          </a>
+          <br>
+      <strong>Juan Alvarez-Padilla</strong>, Christian Berger, Sayan Mondal, Haoru Xue, and Zhikai Zhang
+          <br>
+          <em>16-745: Optimal Control and Reinforcement Learning</em>, Spring 2023, Professor <a href="https://www.ri.cmu.edu/ri-faculty/zachary-manchester/"> Zachary Manchester</a>
+          <div class="button-container">
+            <a href="https://github.com/jrapudg/ocrl_ballbot_navigation_project/blob/main/16745_ballbot_report.pdf" class="btn btn-project">Report</a>
+            <a href="https://github.com/jrapudg/ocrl_ballbot_navigation_project" class="btn btn-arxiv">Code</a>
+          </div>
+          <p>
+            Optimizing and tracking whole-body trajectories for a ballbot equipped with arms. By using advanced control techniques like direct collocation and Time-Variant Linear Quadratic Regulators (TVLQR), the ballbot performs dynamic tasks such as navigating complex paths and pushing off walls, maintaining balance despite changes in its center of mass.
+          </p>
+        </td>
+      </tr>
+      </table>
+
+      <!-- <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
         <td style="padding:20px;width:25%;vertical-align:middle">
           <div class="one">
             <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
@@ -197,9 +279,9 @@
           Neural fields let you recover editable UV mappings for the challenging geometries produced by NeRF-like models.
           </p>
         </td>
-      </tr>
+      </tr> -->
 
-    <tr onmouseout="eclipse_stop()" onmouseover="eclipse_start()">
+    <!-- <tr onmouseout="eclipse_stop()" onmouseover="eclipse_start()">
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
           <div class="two" id='eclipse_image'><video  width=100% height=100% muted autoplay loop>
@@ -243,7 +325,7 @@
         Shadows cast by unobserved occluders provide a high-frequency cue for recovering illumination and materials.
         </p>
       </td>
-    </tr>
+    </tr> -->
 
     <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
       <!-- <tr>
