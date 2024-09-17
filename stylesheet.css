@@ -180,3 +180,19 @@ span.highlight {
 .btn-arxiv:hover {
   background-color: #deff07; /* Hover: Dark Purple */
 }
+
+.btn-dataset {
+  background-color: #0af412; /* Medium Green */
+}
+
+.btn-dataset:hover {
+  background-color: #077023; /* Hover: Dark Green */
+}
+
+.btn-code {
+  background-color: #02aadd; /* Medium Green */
+}
+
+.btn-code:hover {
+  background-color: #29ebde; /* Hover: Dark Green */
+}
