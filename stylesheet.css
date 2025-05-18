@@ -158,41 +158,41 @@ span.highlight {
 }
 
 .btn-project {
-  background-color: #180161; /* Dark Purple */
+  background-color: #000000; /* Dark Purple */
 }
 
 .btn-project:hover {
-  background-color: #176787; /* Hover: Medium Purple */
+  background-color: #000000; /* Hover: Medium Purple */
 }
 
 .btn-video {
-  background-color: #EB3678; /* Pink-Red */
+  background-color: #666666; /* Pink-Red */
 }
 
 .btn-video:hover {
-  background-color: #f054e1; /* Hover: Orange */
+  background-color: #666666; /* Hover: Orange */
 }
 
 .btn-arxiv {
-  background-color: #FB773C; /* Medium Purple */
+  background-color: #C41230; /* Medium Purple */
 }
 
 .btn-arxiv:hover {
-  background-color: #deff07; /* Hover: Dark Purple */
+  background-color: #C41230; /* Hover: Dark Purple */
 }
 
 .btn-dataset {
-  background-color: #05cc0c; /* Medium Green */
+  background-color: #666666; /* Medium Green */
 }
 
 .btn-dataset:hover {
-  background-color: #077023; /* Hover: Dark Green */
+  background-color: #666666; /* Hover: Dark Green */
 }
 
 .btn-code {
-  background-color: #02aadd; /* Medium Green */
+  background-color: #C41230; /* Medium Green */
 }
 
 .btn-code:hover {
-  background-color: #29ebde; /* Hover: Dark Green */
+  background-color: #C41230; /* Hover: Dark Green */
 }
