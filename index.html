@@ -1,86 +1,16 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Juan Alvarez-Padilla | Robotics Researcher</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
-  <style>
-    body {
-      font-family: 'Inter', sans-serif;
-      margin: 0;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(to right, #004aad, #2c3e50);
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2rem;
-    }
-    .container {
-      max-width: 900px;
-      margin: auto;
-      padding: 1.5rem;
-    }
-    .profile {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
-      align-items: center;
-    }
-    .profile img {
-      width: 200px;
-      border-radius: 50%;
-    }
-    .profile-info {
-      flex: 1;
-    }
-    h2 {
-      border-bottom: 2px solid #ccc;
-      padding-bottom: 0.3rem;
-      margin-top: 3rem;
-    }
-    a {
-      color: #004aad;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .education, .project {
-      display: flex;
-      gap: 1rem;
-      margin-bottom: 1.5rem;
-    }
-    .education img, .project img {
-      height: 80px;
-      object-fit: contain;
-    }
-    .button-container a {
-      display: inline-block;
-      margin: 0.3rem 0.3rem 0.3rem 0;
-      padding: 0.5rem 1rem;
-      background: #004aad;
-      color: white;
-      border-radius: 4px;
-      font-size: 0.9rem;
-    }
-    .button-container a:hover {
-      background: #00337f;
-    }
-    footer {
-      text-align: center;
-      font-size: 0.9rem;
-      margin-top: 4rem;
-      padding: 1rem;
-      background-color: #eee;
-    }
-  </style>
-</head>
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Juan Alvarez-Padilla's personal website. Explore my research in robotics, control systems, and artificial intelligence.">
+    <meta name="author" content="Juan Alvarez-Padilla">
+
+    <title>Juan Alvarez-Padilla | Robotics Researcher</title>
+
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
@@ -100,13 +30,38 @@
         ]
       }
     </script>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap');
+
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+        background-color: #f9f9f9;
+        color: #111;
+      }
+
+      .title-banner {
+        width: 100%;
+        background-color: #004080;
+        color: white;
+        padding: 0.6em 0;
+        text-align: center;
+        font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-size: 2.4em;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        margin-bottom: 1.5em;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      }
+    </style>
   </head>
 
   <body>
-  <header>
-    <h1>Juan Alvarez-Padilla</h1>
-    <p>Robotics Researcher & PhD Student | Carnegie Mellon University</p>
-      </header>
+    <div class="title-banner">Juan Alvarez-Padilla | Robotics Researcher</div>
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -184,16 +139,17 @@
           <i><b>2011 &#9472; 2015</b></i>
         </td>
       </tr>
-      <tr>
-    </table><hr><br>
-    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-        <tr>
-        <td style="padding:20px;width:100%;vertical-align:middle">
-          <h1>Research</h1>
-        </td>
-      </tr>
+
     </table>
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <h1>Research</h1>
+          </td>
+       </tbody>
+    </table>
+    
     <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tbody>
       <tr onmouseout="smerf_stop()" onmouseover="smerf_start()">
@@ -526,8 +482,8 @@
             <tr>
               <td style="padding:0px">
                 <br>
-                <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                <p style="text-align:middle;font-size:small;">
+                  This website is based on <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.
                 </p>
               </td>
             </tr>
