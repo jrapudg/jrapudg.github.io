@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Carnegie Mellon University, Universidad de Guadalajara
+subtitle: <a href='#'>Affiliations</a>. Carnegie Mellon University (CMU) and the Universidad de Guadalajara (UdeG)
 
 profile:
   align: right
