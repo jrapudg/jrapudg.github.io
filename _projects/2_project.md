@@ -10,7 +10,7 @@ giscus_comments: false
 ---
 
 ---
-    Course: CMU 16-782: Planning and Decision-making for Robotics Fall 2023
+    Course: CMU 16-782 Planning and Decision-making for Robotics Fall 2023
     Instructor: Maxim Likhachev
     Authors: Juan Alvarez-Padilla, Ibrahima Sory Sow, Fausto Vega and Nayana Survana
 

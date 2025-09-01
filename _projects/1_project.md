@@ -9,7 +9,7 @@ related_publications: false
 ---
 
 ---
-    Course: CMU 16-745: Optimal Control and Reinforcement Learning Spring 2023
+    Course: CMU 16-745 Optimal Control and Reinforcement Learning Spring 2023
     Instructor: Zachary Manchester
     Authors: Juan Alvarez-Padilla, Christian Berger, Sayan Mondal, Haoru Xue, and Zhikai Zhang
 
