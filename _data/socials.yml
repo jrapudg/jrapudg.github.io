@@ -2,7 +2,7 @@
 # the commented lines are the default social media links supported by the template
 # the socials will be displayed in the order they are defined here
 custom_social: # can be any name here other than the ones already defined above
-  logo: assets/img/personal5_magenta.png # can be png, svg, jpg
+  logo: assets/img/personal5_green.png # can be png, svg, jpg
 
   # title: Custom Social
   # url: https://www.alberteinstein.com/
