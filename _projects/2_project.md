@@ -30,3 +30,10 @@ We want to leverage the cost-to-go function of linear quadratic regulation (LQR)
 </div>
 
 Check the project **[here](https://github.com/jrapudg/OptimalSamplingLowThrust)**.
+
+
+## References
+
+[1] Tracy, Kevin, and Zac Manchester. “Low-Thrust Trajectory Optimization Using the Kustaanheimo-Stiefel Transformation”. 2021 AAS/AIAA Space Flight Mechanics Meeting.
+
+[2] Perez, Alejandro, et al. "LQR-RRT*: Optimal sampling-based motion planning with automatically derived extension heuristics." 2012 ICRA.
