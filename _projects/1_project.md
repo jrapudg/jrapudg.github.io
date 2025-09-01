@@ -4,7 +4,7 @@ title: Whole-body Trajectory Optimization and Tracking for a Ballbot
 description: Optimizing and tracking whole-body trajectories for a ballbot equipped with arms. By using direct collocation and Time-Variant Linear Quadratic Regulators (TVLQR), the ballbot performs dynamic tasks such as navigating complex paths and pushing off walls, maintaining balance despite changes in its center of mass.
 img: assets/img/ballbot_st.png
 importance: 1
-category: work
+category: school
 related_publications: false
 ---
 

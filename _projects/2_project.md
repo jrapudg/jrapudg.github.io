@@ -4,7 +4,7 @@ title: On-Orbit Optimal Kinodynamic Planning for Low-Thrust Trajectory Maneuvers
 description: Using RRT* with an LQR-based heuristic to efficiently design low-thrust spacecraft trajectories, addressing nonlinear dynamics and long-duration maneuvers.
 img: assets/img/planner.png
 importance: 2
-category: work
+category: school
 related_publications: false
 giscus_comments: false
 ---

@@ -5,7 +5,7 @@ permalink: /projects/
 description: A collection of my course and personal projects.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [school, fun]
 horizontal: false
 ---
 
