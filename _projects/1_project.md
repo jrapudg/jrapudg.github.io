@@ -26,4 +26,4 @@ Several ballbots have been developed, yet only a handful have been equipped with
     Ballbot tracking a trajectory to push a wall with a TV-LQR controller.
 </div>
 
-Check the project [here](https://github.com/jrapudg/OCRL-BallbotTrajOptAndControl).
+Check the project **[here](https://github.com/jrapudg/OCRL-BallbotTrajOptAndControl)**.

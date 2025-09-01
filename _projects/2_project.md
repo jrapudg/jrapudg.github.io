@@ -29,4 +29,4 @@ We want to leverage the cost-to-go function of linear quadratic regulation (LQR)
     RRT* panner with LQR cost-to-go visualization.
 </div>
 
-Check the project [here](https://github.com/jrapudg/OptimalSamplingLowThrust).
+Check the project **[here](https://github.com/jrapudg/OptimalSamplingLowThrust)**.
