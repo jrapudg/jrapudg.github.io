@@ -3,8 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle:
-    - "<strong>Affiliations</strong>. Carnegie Mellon University (CMU) and Universidad de Guadalajara (UdeG) <br>"
-    - "<strong>Research</strong>. Legged-wheeled robots, whole-body control, state estimation <br>"
+    - "<strong>Affiliations</strong>: Carnegie Mellon University (CMU) and Universidad de Guadalajara (UdeG) <br>"
+    - "<strong>Research</strong>: Legged-wheeled robots, whole-body control, state estimation <br>"
     
 profile:
   align: right
