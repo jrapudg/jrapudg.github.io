@@ -5,6 +5,7 @@
 @inproceedings{bishop2025linearwalking,
       title={The Surprising Effectiveness of Linear Models for Whole-Body Model-Predictive Control},
       author={Bishop, Arun and Alvarez-Padilla, Juan and Schoedel, Sam and Sow, Ibrahima S. and Chandrachud, Juee and Sharma, Sheitej and Kraus, Will and Park, Beomyeong and Griffin, Robert J. and Dolan, John M. and Manchester, Zachary},
+      abstract={When do locomotion controllers require reasoning about nonlinearities? In this work, we show that a whole-body model-predictive controller using a simple linear time-invariant approximation of the whole-body dynamics is able to execute basic locomotion tasks on complex legged robots. The formulation requires no online nonlinear dynamics evaluations or matrix inversions. We demonstrate walking, disturbance rejection, and even navigation to a goal position without a separate footstep planner on a quadrupedal robot. In addition, we demonstrate dynamic walking on a hydraulic humanoid, a robot with significant limb inertia, complex actuator dynamics, and large sim-to-real gap.},
       booktitle = {Humanoids},
       url = {https://arxiv.org/abs/2509.17884},
       year={2025},
@@ -18,6 +19,7 @@
 @inproceedings{alvarez2025realtime,
       title={Real-Time Whole-Body Control of Legged Robots with Model-Predictive Path Integral Control},
       author={Alvarez-Padilla, Juan and Zhang, John Z. and Kwok, Sofia and Dolan, John M. and Manchester, Zachary},
+      abstract={This paper presents a system for enabling real-time synthesis of whole-body locomotion and manipulation policies for real-world legged robots. Motivated by recent advancements in robot simulation, we leverage the efficient parallelization capabilities of the MuJoCo simulator to achieve fast sampling over the robot state and action trajectories. Our results show surprisingly effective real-world locomotion and manipulation capabilities with a very simple control strategy. We demonstrate our approach on several hardware and simulation experiments: robust locomotion over flat and uneven terrains, climbing over a box whose height is comparable to the robot, and pushing a box to a goal position. To our knowledge, this is the first successful deployment of whole-body sampling-based MPC on real-world legged robot hardware.},
       booktitle = {ICRA},
       url = {https://arxiv.org/abs/2409.10469},
       year={2025},
@@ -29,14 +31,15 @@
 }
 
 @inproceedings{ghosh2024roadwork,
-  title={Roadwork dataset: learning to recognize, observe, analyze and drive through work zones},
-  author={Ghosh, Anurag and Zheng, Shen and Tamburo, Robert and Vuong, Khiem and Alvarez-Padilla, Juan and Zhu, Hailiang and Cardei, Michael and Dunn, Nicholas and Mertz, Christoph and Narasimhan, Srinivasa G},
-  booktitle={ICCV},
-  url = {https://arxiv.org/abs/2406.07661},
-  arxiv={2406.07661},
-  year={2025},
-  website={https://www.cs.cmu.edu/%7Eroadwork/},
-  preview={roadwork2.gif},
-  bibtex_show={true},
-  selected={true}
+      title={Roadwork dataset: learning to recognize, observe, analyze and drive through work zones},
+      author={Ghosh, Anurag and Zheng, Shen and Tamburo, Robert and Vuong, Khiem and Alvarez-Padilla, Juan and Zhu, Hailiang and Cardei, Michael and Dunn, Nicholas and Mertz, Christoph and Narasimhan, Srinivasa G},
+      abstract={Perceiving and autonomously navigating through work zones is a challenging and underexplored problem. Open datasets for this long-tailed scenario are scarce. We propose the ROADWork dataset to learn to recognize, observe, analyze, and drive through work zones. State-of-the-art foundation models fail when applied to work zones. Fine-tuning models on our dataset significantly improves perception and navigation in work zones. With ROADWork dataset, we discover new work zone images with higher precision (+32.5%) at a much higher rate (12.8×) around the world. Open-vocabulary methods fail too, whereas fine-tuned detectors improve performance (+32.2 AP). Vision-Language Models (VLMs) struggle to describe work zones, but fine-tuning substantially improves performance (+36.7 SPICE). Beyond fine-tuning, we show the value of simple techniques. Video label propagation provides additional gains (+2.6 AP) for instance segmentation. While reading work zone signs, composing a detector and text spotter via crop-scaling improves performance +14.2% 1-NED). Composing work zone detections to provide context further reduces hallucinations (+3.9 SPICE) in VLMs. We predict navigational goals and compute drivable paths from work zone videos. Incorporating road work semantics ensures 53.6% goals have angular error (AE) < 0.5 (+9.9 %) and 75.3% pathways have AE < 0.5 (+8.1 %).},
+      booktitle={ICCV},
+      url = {https://arxiv.org/abs/2406.07661},
+      arxiv={2406.07661},
+      year={2025},
+      website={https://www.cs.cmu.edu/%7Eroadwork/},
+      preview={roadwork2.gif},
+      bibtex_show={true},
+      selected={true}
 }
