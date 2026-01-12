@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preseting Whole-Body MPPI at ICRA 2025 🎤
+Presenting Whole-Body MPPI at ICRA 2025 🎤

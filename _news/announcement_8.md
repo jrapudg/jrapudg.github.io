@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Preseting Linear-Walking at Humanoids 2025 🎤
+Presenting Linear-Walking at Humanoids 2025 🎤
