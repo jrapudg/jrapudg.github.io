@@ -11,9 +11,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    # <p>1609 Newell-Simon Hall</p>
-    # <p>5000 Forbes Avenue </p>
-    # <p>Pittsburgh, PA 15213</p>
     <p>Massachusetts Institute of Technology</p>
     <p>77 Massachusetts Ave, Rm 31-233</p>
     <p>Cambridge, MA 02139</p>
