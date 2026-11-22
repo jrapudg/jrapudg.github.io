@@ -100,9 +100,14 @@
       <a href="{{ social[1].url }}" title="{{ social[1].title }}">
         {% assign file_ext = social[1].logo | split: '.' | last %}
         {% if file_ext == 'svg' %}
-          <svg>
+          <svg{% if social[1].logo_dark %} class="social-logo-light"{% endif %}>
             <image xlink:href="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}" />
           </svg>
+          {% if social[1].logo_dark %}
+            <svg class="social-logo-dark">
+              <image xlink:href="{% if social[1].logo_dark contains '://' %}{{ social[1].logo_dark }}{% else %}{{ social[1].logo_dark | relative_url }}{% endif %}" />
+            </svg>
+          {% endif %}
         {% else %}
           <img
             src="{% if social[1].logo contains '://' %}{{ social[1].logo }}{% else %}{{ social[1].logo | relative_url }}{% endif %}"

@@ -3,6 +3,7 @@
 # the socials will be displayed in the order they are defined here
 custom_social: # can be any name here other than the ones already defined above
   logo: assets/img/logo.svg # can be png, svg, jpg
+  logo_dark: assets/img/logo-dark.svg # optional: shown instead of logo in dark mode (svg only)
 
   # title: Custom Social
   # url: https://www.alberteinstein.com/

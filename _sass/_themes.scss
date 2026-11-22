@@ -123,6 +123,12 @@ html[data-theme="dark"] {
   }
 }
 
+// Social logo with a separate dark-mode version (see logo_dark in _data/socials.yml)
+html:not([data-theme="dark"]) .social-logo-dark,
+html[data-theme="dark"] .social-logo-light {
+  display: none;
+}
+
 html[data-theme-setting="dark"] {
   #light-toggle-system {
     display: none;
