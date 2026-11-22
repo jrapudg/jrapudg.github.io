@@ -5,11 +5,12 @@
 @article{jung2026llamppi,
       title={LLA-MPPI: Rapidly Adaptive Whole-body Control of Legged Robots with GPU-Accelerated Parallel Simulations},
       author={Jung, Sebin and AL-Sunni, Maitham F. and Alvarez-Padilla, Juan and Manchester, Zachary and Liu, Changliu and Dolan, John M.},
+      abstract={Real-time whole-body controllers for legged robots typically plan through a fixed nominal model and degrade when the deployed dynamics change. Adaptive methods typically require a model structure that contact dynamics do not provide, or they need offline training for each anticipated condition. We present Look-back and Look-ahead Adaptive Model Predictive Path Integral control (LLA-MPPI). The method converts whole-body adaptation into selection over a bank of GPU-batched contact simulators with different physical or structural parameters. Windowed prediction errors select the simulator that best explains recent motion. A whole-body MPPI planner optimizes controls through the selected model. The framework requires no offline training, and its selected hypotheses are physically interpretable. Across four simulated tasks, it achieves 97.5% success while the strongest baseline reaches 74% and an oracle with the true model reaches 98.5%. Hardware validation on a Unitree Go2 shows the robot walking under a payload added mid-run, walking after one leg is disabled, and pushing a box to its goal while increasing its mass on the fly. Code, videos, and project details are available at: https://lla-control.github.io},
       journal={arXiv preprint},
       url={https://arxiv.org/abs/2610.10465},
       year={2026},
       website={https://lla-control.github.io},
-      preview={lla-mppi.png},
+      preview={lla-mppi.webp},
       arxiv={2610.10465},
       bibtex_show={true},
       selected={true}
@@ -18,11 +19,12 @@
 @article{ghosh2026dash2sim,
       title={Dash2Sim: Closed-Loop Driving Simulation from in-the-wild Dashcam Videos},
       author={Ghosh, Anurag and Pittaluga, Francesco and Vuong, Khiem and Chen, Angela and Alvarez-Padilla, Juan and Chandraker, Manmohan and Narasimhan, Srinivasa},
+      abstract={Self-driving simulations typically rely on data collected in a small number of cities or on hand-authored synthetic scenarios. Dashcam videos cover a far broader range of locations and situations, including rare or long-tailed scenarios. They are considered less usable for simulation because it is difficult to recover accurate 4D scenes from monocular in-the-wild videos. Work zones are one such class of long-tailed situations that dashcams capture. We present Dash2Sim, a framework that turns in-the-wild monocular dashcam videos into metric, geo-referenced 4D driving logs compatible with existing simulators, and verifies eachone against an independently maintained map without annotations. We apply Dash2Sim to a large video corpus to create the ROADWork4D benchmark dataset, which spans 4,244 scenes with 2.7M 3D objects across 17 cities. On a verified subset ROADWork4D-CL (2,201 scenes), we study privileged closed-loop planners and find that work zone scenarios are difficult: while rule-based and hybrid planners generalize better than learning-based ones, all fall short, failing to make the lane changes that temporary work zone channels require. Beyond planning, dense depth recovered by Dash2Sim improves novel-view synthesis quality by up to 19% on perceptual metrics, suggesting its potential to provide rich conditioning for closed-loop sensor simulation from monocular videos.},
       journal={arXiv preprint},
       url={https://arxiv.org/abs/2606.07366},
       year={2026},
       website={https://www.cs.cmu.edu/~dash2sim/},
-      preview={dash2sim.gif},
+      preview={dash2sim.webp},
       arxiv={2606.07366},
       bibtex_show={true}
 }
@@ -34,7 +36,7 @@
       booktitle = {Humanoids},
       url = {https://arxiv.org/abs/2509.17884},
       year={2025},
-      preview={linear-walking.gif},
+      preview={linear-walking.webp},
       website={https://linearwalking.github.io/},
       arxiv={2509.17884},
       bibtex_show={true},
@@ -48,7 +50,7 @@
       booktitle = {ICRA},
       url = {https://arxiv.org/abs/2409.10469},
       year={2025},
-      preview={whole-body-mppi.gif},
+      preview={whole-body-mppi.webp},
       website={https://whole-body-mppi.github.io/},
       arxiv={2409.10469},
       bibtex_show={true},
@@ -64,6 +66,6 @@
       arxiv={2406.07661},
       year={2025},
       website={https://www.cs.cmu.edu/%7Eroadwork/},
-      preview={roadwork2.gif},
+      preview={roadwork2.webp},
       bibtex_show={true}
 }
